@@ -1,0 +1,26 @@
+import React from 'react'
+// import { Button } from './Button'
+import './BigHero.css';
+import '../../App.css';
+
+function BigHero() {
+    return (
+        <div className='hero-container'>
+        <video src='/videos/video-1.mp4' autoPlay loop muted />
+        <h1>Find Your Dream Hostel</h1>
+        <p>service only available at Raebareli</p>
+      {/* <div className="hero-btns">
+          <Button className='btns' buttonStyle='btn--outline'
+          buttonSize='btn--large'>GET STARTED
+          </Button>
+          <Button className='btns' buttonStyle='btn--outline'
+          buttonSize='btn--large'>Watch Trailer
+          <i className='far fa-play-circle' />
+          </Button>
+      </div> */}
+            
+        </div>
+    )
+}
+
+export default BigHero;
